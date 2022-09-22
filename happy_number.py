@@ -5,10 +5,10 @@ while True:
         sum+=(num%10)**2
         num=num//10
     if sum==1 or sum==7:
-        print(True)
+        print("True")
         break
     elif sum<10:
-        print(False)
+        print("False")
         break
     else:
         num=sum
