@@ -2,12 +2,12 @@ n = int(input())
 f,s = 0,1
 ne = f+s
 while ne<=n:
-    f =s
+    f=s
     s=ne
-    ne =f+s
+    ne=f+s
 if n-s<ne-n:
-        print(s)
+    print(s)
 elif n-s>ne-n:
-        print(ne)
+    print(ne)
 else:
-        print(s,ne)
+    print(s,ne)
