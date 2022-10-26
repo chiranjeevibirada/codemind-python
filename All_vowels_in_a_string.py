@@ -2,8 +2,8 @@ a = "AEIOU"
 b = "aeiou"
 u = 0
 l = 0
-x = []
-y = []
+x= []
+y= []
 s = input()
 for i in range(0,len(s)-1):
     if s[i] in a:
