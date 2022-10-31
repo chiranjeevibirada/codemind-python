@@ -1,9 +1,9 @@
 s=input().lower()
+s=sorted(s)
 x=[]
-z=[]
-#y=sorted(s)
+v=""
 for i in s:
-    if (i>="a" and i<="z") and i not in x:
+    if (i>="a" and i<="z") and s.count(i)==1:
         x.append(i)
-x=sorted(x)
-print("".join(x))
+        v+=i
+print(v)
